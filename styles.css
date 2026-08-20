@@ -867,3 +867,39 @@ footer,
   z-index:-2;
   background:linear-gradient(90deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.6) 50%,rgba(0,0,0,.45) 100%),linear-gradient(180deg,rgba(0,0,0,.20),rgba(0,0,0,.38));
 }
+
+/* ===== VRSA v20: corrección menú móvil ===== */
+@media (max-width: 900px){
+  .site-header{
+    position:relative;
+    z-index:1000;
+  }
+
+  .menu-toggle{
+    color:#ffffff !important;
+    position:relative;
+    z-index:1002;
+  }
+
+  .main-nav{
+    z-index:1001;
+    background:#111112 !important;
+    border-top:1px solid rgba(200,169,90,.28) !important;
+    border-bottom:1px solid rgba(200,169,90,.28) !important;
+    box-shadow:0 16px 30px rgba(0,0,0,.38) !important;
+  }
+
+  .main-nav a{
+    color:#ffffff !important;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+
+  .main-nav a:last-child{
+    border-bottom:0;
+  }
+
+  .main-nav a:hover,
+  .main-nav a.active{
+    color:#c8a95a !important;
+  }
+}
