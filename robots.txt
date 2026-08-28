@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vrsaeai.github.io/EJERCITO-VRSA/sitemap.xml

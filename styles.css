@@ -903,3 +903,65 @@ footer,
     color:#c8a95a !important;
   }
 }
+
+
+/* v25 - Escuadras de COT y BAVE */
+.unit-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.unit-actions .page-link{margin-top:0}
+.page-link-alt{background:transparent !important;color:#c8a95a !important;border:1px solid rgba(200,169,90,.65) !important}
+.page-link-alt:hover{background:rgba(200,169,90,.08) !important}
+.squads-section{padding-top:82px !important;padding-bottom:82px !important;border-top:1px solid rgba(200,169,90,.18)}
+.squads-section-alt{background:#151516 !important}
+.squads-heading{margin-bottom:28px}
+.squads-heading h2{margin:14px 0 8px;font-family:"Merriweather",serif;font-size:clamp(2rem,4vw,3.2rem)}
+.squads-heading p{margin:0;color:#c7c3ba}
+.squad-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.squad-card{background:#1d1d1f;border:1px solid rgba(200,169,90,.22);padding:28px;min-height:230px}
+.squad-card h3{font-family:"Merriweather",serif;font-size:1.55rem;margin:0 0 14px;color:#f4f1eb}
+.squad-card p{margin:0;color:#d8d3c9;line-height:1.75}
+@media(max-width:900px){.squad-grid{grid-template-columns:1fr}.unit-actions{align-items:stretch}.unit-actions .page-link{width:100%;text-align:center}}
+
+/* ===== VRSA v27: controles de música ===== */
+.vrsa-music-player{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:3000;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:rgba(12,12,13,.94);
+  border:1px solid rgba(200,169,90,.42);
+  box-shadow:0 12px 34px rgba(0,0,0,.38);
+  padding:8px;
+  backdrop-filter:blur(10px);
+}
+.vrsa-music-toggle{
+  border:0;
+  background:#c8a95a;
+  color:#0b0b0b;
+  min-height:42px;
+  padding:0 14px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  font:700 .82rem "Inter",sans-serif;
+  cursor:pointer;
+}
+.vrsa-music-toggle:hover{background:#d8b86a}
+.vrsa-music-icon{font-size:.9rem;min-width:14px;text-align:center}
+.vrsa-music-controls{display:flex;align-items:center;gap:10px;padding-right:6px}
+.vrsa-music-title{color:#f4f1eb;font:600 .72rem "Inter",sans-serif;white-space:nowrap;max-width:180px;overflow:hidden;text-overflow:ellipsis}
+.vrsa-music-volume{width:92px;accent-color:#c8a95a;cursor:pointer}
+@media(max-width:700px){
+  .vrsa-music-player{right:10px;bottom:10px;padding:6px}
+  .vrsa-music-label,.vrsa-music-title{display:none}
+  .vrsa-music-controls{padding-right:2px}
+  .vrsa-music-volume{width:72px}
+  .vrsa-music-toggle{padding:0 12px;min-height:40px}
+}
+
+/* ===== VRSA v28: botón Postular en escuadras ===== */
+.squad-card{display:flex;flex-direction:column}
+.squad-card .squad-postular{margin-top:auto;align-self:flex-start}
+@media(max-width:900px){.squad-card .squad-postular{width:100%;text-align:center}}

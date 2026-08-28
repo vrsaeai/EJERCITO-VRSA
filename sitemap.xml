@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/institucion.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/unidades.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/fuerzas-especiales.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/galeria.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/jerarquia.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/entrenamiento.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vrsaeai.github.io/EJERCITO-VRSA/reclutamiento.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url><loc>https://vrsaeai.github.io/EJERCITO-VRSA/escuadras-cot.html</loc></url>
+  <url><loc>https://vrsaeai.github.io/EJERCITO-VRSA/escuadras-bave.html</loc></url>
+</urlset>
